@@ -51,7 +51,7 @@ public:
             }
             cout<<endl;
         }else {
-            cout<<"Access denied."<<endl;
+            cout<<"Account info cannot be accessed."<<endl;
         }
     }
     void displayFollowers() const {             //function that displays followers
@@ -65,7 +65,7 @@ public:
             }
             cout<<endl;
         }else {
-            cout<<"Access denied."<<endl;
+            cout<<"Account access cannot be displayed."<<endl;
         }
     }
 };
