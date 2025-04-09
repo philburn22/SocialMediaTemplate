@@ -21,7 +21,7 @@ struct Profile {
     string username;
 };
 
-ostream& operator<<(ostream& os, const Profile& profile){os<<"Profile:(ID: "<<profile.userId<<", Username: "<<profile.username<<")";
+ostream& operator<<(ostream& os, const Profile& profile){os<<"(Profile ID: "<<profile.userId<<", Username: "<<profile.username<<")";
     return os;
 }
 
