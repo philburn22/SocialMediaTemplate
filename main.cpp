@@ -39,6 +39,7 @@ int main() {
     TS.displayFollowed();
     cout<<"Initial retweet count: "<<TS.getRetweetCount()<<endl;
     TS.RT();TS.RT();TS.RT();TS.RT();TS.RT();TS.RT();TS.RT();         //retweets
+    TS.RT();TS.RT();TS.RT();TS.RT();TS.RT();TS.RT();TS.RT();
     cout<<"Retweet count after "<<TS.getHandler()<<" completed retweeting: "<<TS.getRetweetCount()<<endl;
     cout<<"=================================="<<endl;
 
